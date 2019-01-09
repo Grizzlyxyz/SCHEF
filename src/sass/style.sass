@@ -1,0 +1,374 @@
+@import './_variables.sass'
+@import './_fonts.sass'
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css'
+
+// MEDIA QUERY
+@media screen and (max-width: 768px)
+      .paragraphe1
+            margin-left: 10px !important
+            margin-right: 10px !important
+      
+      #formulaire
+            margin: 9.5vh 1.5vh !important
+      
+      .divmenu
+            margin-left: 0 !important
+            margin-right: 0 !important
+
+
+@media screen and (min-width: 992px)
+      .imgheader
+            display: none !important
+
+@media screen and (max-width: 992px)
+      .imgheader2
+            display: none !important
+      
+      .navbar1
+            border-bottom: 0 !important
+            border-top: 0 !important
+
+// GENERAL
+
+body
+      font-family: Ubuntu
+      color: white
+      margin: 0
+      padding: 0
+
+h1
+      font-family: myFirstFont
+
+// HEADER
+header
+      overflow: hidden
+      background-image: url("../img/banner1.jpg")
+      background-size: 100%
+      background-position-y: 70%
+      margin: 0
+
+.bg-black
+      background: black
+
+.opacity1
+    background-color: black
+    opacity: 0.85
+    width: 100%
+    height: 100%
+
+.navbar1
+      border-bottom: 1.5px solid white
+      border-top: 1.5px solid white
+
+.navbar1 li
+      font-size: 20px
+
+.navbar1 li:hover
+      background: theme-color("danger")
+
+.titre
+      text-align: center
+      margin-top: 170px
+      margin-bottom: 170px
+      max-width: 800px
+
+#button-1
+      background-color: #E3E5E3
+      margin-top: 7vh
+      font-size: 18px
+      color: #222222
+      border-radius: 25px
+      padding: 15px 25px
+      margin-right: 20px
+
+#button-2
+      margin-top: 7vh
+      font-size: 18px
+      color: #E5E5E5
+      border-radius: 25px
+      padding: 15px 25px
+
+
+.header-bordure
+      background-color: #282828
+      background-image: url('../img/bottom_decoration_img.png')
+      background-repeat: repeat
+      height: 10px
+// SECTION MENU
+#section1
+      padding-top: 10rem
+      padding-bottom: 10rem
+      overflow: hidden
+      background-image: url('../img/main_bg.jpg')
+      width: 100%
+
+.divsection1
+      overflow: hidden
+
+#container1
+      background: white
+      overflow: hidden
+
+#section-bordure-1
+      float: left
+      margin: -15px
+
+#section-bordure-2
+      float: right
+      margin: -15px
+
+.spec1
+      position: relative
+      left: -15px
+      bottom: 0
+      width: 20%
+
+.spec2
+      position: relative
+      right: -15px
+      bottom: 0
+      float: right
+      width: 15px
+
+.paragraphe1
+      margin-left: 180px
+      margin-right: 180px
+      font-size: 18px
+
+.iconesmenu
+      height: 18vh
+      display: flex
+      flex-position: column
+      justify-content: center
+      align-items: center
+      flex-wrap: wrap
+      border-bottom: solid 1px #CBCBCB
+      border-right: solid 1px #CBCBCB
+
+.iconesmenu:hover
+      color: theme-color("danger")
+      border-right: .7rem solid theme-color("danger")
+
+
+.icones
+      font-size: 7vh
+      width: 100%
+      display: flex
+      justify-content: center
+      margin: 0
+
+#colonne-special
+      display: flex
+      justify-content: center
+      align-items: flex-start
+      flex-direction: columns
+      flex-wrap: wrap
+
+#menu1
+      width: 100%
+      height: 10rem
+      border-bottom: dotted 1px grey
+      display: flex
+      flex-direction: row
+      padding-top: .6rem
+
+.submenu
+      width: 90%
+      display: flex
+      align-items: center
+      border-radius: 50%
+      border: solid 4px #E9E9E9
+
+.submenu2
+      width: 60%
+      display: flex
+      justify-content: center
+      flex-direction: column
+      text-align: left
+
+.submenu2 h1
+      font-size: 15px
+      margin: 0
+      font-style: bold
+      width: 100%
+.submenu2 p
+      font-size: 15px
+      margin: 0
+
+.submenu3
+      width: 15%
+      display: flex
+      align-items: center
+
+.prix
+      background-color: #EEEEEF
+      color: #C90034
+      width: 100%
+      justify-content: center
+
+// MEET YOUR CHEF
+
+.section2
+      background: url('../img/team_background.jpg') repeat
+      background-size: 100%
+      overflow: hidden
+      width: 100%
+      height: 100%
+
+.container-fluid
+      max-width: 80%
+
+
+#formulaire
+      margin: 9.5vh 10.5vh
+      background-color: red
+      overflow: hidden
+      border-radius: 15px
+      background-image: url('../img/book_table_bg.jpg')
+      padding: 8vh 5.5vh
+      display: flex
+      justify-content: center
+      flex-direction: column
+      align-items: center
+
+#formulaire h1
+      color: white
+      font-size: 16px
+      width: 100%
+      text-align: center
+      margin-bottom: 7.5vh
+      height: 200px
+
+.display-5
+      font-size: 43px 
+            
+.input
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+      justify-content: space-between
+      align-items: space-between
+
+input 
+      width: 100%
+      height: 6.5vh
+      border-radius: 15px
+      font-size: 16px
+      padding-left: 2vh
+
+// FORMULAIRE 2
+.img-1
+      background-image: url('../img/blog_img1.jpg')
+      border: solid 4px #E4E4E4
+      border-radius: 20px
+      background-size: 110%
+      background-position-x: 100%
+      background-position-y: 100%
+      width: 100%
+      height: 240px
+
+.img-2
+      background-image: url('../img/blog_img2.jpg')
+      border: solid 4px #E4E4E4
+      border-radius: 20px
+      background-size: 110%
+      background-position-x: 100%
+      background-position-y: 100%
+      width: 100%
+      height: 240px
+
+.paragraphespecial
+      border-radius: 20px
+      width: 90%
+      align-content: center
+      position: relative
+      margin-right: auto
+      margin-left: auto
+
+.paragraphe2
+      font-size: 1.2    rem
+      margin-top: -20px
+      text-align: center
+
+.paragraphe2 span
+      font-size: 2.3rem
+
+.buttonspec a
+      border-radius: 25px
+
+
+// TESTIMONIALS
+.testimonials
+      overflow: hidden
+      background-image: url('../img/testimonials_background.jpg')
+      // background:linear-gradient(to right,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url('../img/testimonials_background.jpg')
+      background-size: 240%
+
+.container-fluid2
+      width: 70%
+      padding-right: 15px
+      padding-left: 15px
+      margin-right: auto
+      margin-left: auto
+
+.imgtestim
+      border: solid 4px #E0DFDF
+      border-radius: 50%
+      width: 100%
+      height: 100%
+
+.bordertestim
+      border: 1px solid #e0dfdf
+      border-radius: 1.5rem
+
+// CONTACT
+
+.containerperso
+      max-width: 550px
+      width: 100%
+      padding-right: 15px
+      padding-left: 15px
+      margin-right: auto
+      margin-left: auto
+      
+.bordureperso
+      border-radius: 30px
+
+.bordureperso .border-bottom
+      margin-left: 2rem
+      margin-right: 2rem
+
+.sectionfooter
+      background-image: url('../img/footer_background.jpg')
+      background-size: 100%
+      overflow: hidden
+
+.footerbordure
+      background-color: transparent
+      background-image: url('../img/footer_bottom_decoration_img.png')
+      background-repeat: repeat
+      height: 10px
+      width: 100%
+
+.sectionfooter i:hover
+      color: white
+
+.photos
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      align-items: center
+      width: 100%
+      height: 20vh
+
+      [alt="photo-1"]
+            width: 23%
+
+      [alt="photo-2"]
+            width: 23%
+
+.buttonsfooter a
+      border-radius: 30px !important
+      border: 3px solid white !important
+      font-size: 18px !important
